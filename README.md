@@ -5,7 +5,6 @@
 ![Screenshot 3](ss4.png)
 ![Screenshot 4](ss5.png)
 ![Screenshot 5](ss6.png)
-![Screenshot 6](ss7.png)
 
 # Demo Video (Click to watch)
 

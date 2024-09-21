@@ -35,6 +35,13 @@ groq = Groq(api_key=GROQ_API_KEY)
 ocr_engine = RapidOCR()
 
 
+@app.get("/")
+def index():
+    return {
+        "message": "Welcome to the Invoice Categorization API. Upload a video file to get started."
+    }
+
+
 @app.post("/uploadvideo")
 async def upload_video(file: UploadFile = File(...)):
     video_path = os.path.join("tmp", file.filename)
